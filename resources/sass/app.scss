@@ -1,0 +1,53 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+a {
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+  background-color: #3e3e3e;
+  text-align: center;
+  color: #ecf0f1;
+  h6 {
+      margin: 0;
+      padding: 10px 0;
+  }
+}
+
+.dropdown-item:active, .dropdown-item:focus {
+    background-color: transparent;
+    color: #212529;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #3490dc;
+
+    &:active {
+        box-shadow: none;
+    }
+}
