@@ -7,10 +7,10 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-
-import Trend from "vuetrend"
+const Trend = require('vuetrend');
 
 Vue.use(Trend)
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
